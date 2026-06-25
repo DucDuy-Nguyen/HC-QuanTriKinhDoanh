@@ -1,6 +1,7 @@
 import './App.css'
 import heroPhoto from '../anh02.jpg'
 import sectionPhoto from '../anh03.jpg'
+import careerPhoto from './assets/career-opportunities-vhu.jpg'
 
 const reasons = [
   'Tư duy quản lý hiện đại',
@@ -40,7 +41,7 @@ const vhuImages = {
   business: heroPhoto,
   activity: heroPhoto,
   scholarship: sectionPhoto,
-  career: heroPhoto,
+  career: careerPhoto,
 }
 
 function CheckIcon() {
@@ -267,7 +268,7 @@ function App() {
         <div className="mx-auto max-w-7xl">
           <SectionHeading
             eyebrow="Timeline lộ trình"
-            title="Ba bước bắt đầu cùng VHU"
+            title="3 bước bắt đầu cùng VHU"
             description="Từ nhận diện năng lực cá nhân đến hiểu ngành học và kết nối tư vấn tuyển sinh."
             dark
           />
